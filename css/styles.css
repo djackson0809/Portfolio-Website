@@ -9,9 +9,9 @@ a {
 }
 
 body {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
   font-weight: 400;
-  background-color: #191970
+  background-color: #191970;
 }
 
 h1 {
@@ -38,7 +38,8 @@ a:visited {
   color: #ff8c69;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   /* No underlining when hovering over a link */
   text-decoration: 8d8d82;
 }
@@ -48,7 +49,8 @@ a:active {
   color: #ff8c69;
 }
 
-button:hover, button:focus {
+button:hover,
+button:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
@@ -195,7 +197,8 @@ button:hover, button:focus {
   }
 }
 
-.button, button {
+.button,
+button {
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
@@ -213,14 +216,18 @@ button:hover, button:focus {
   transition-property: opacity;
 }
 
-button:hover, button:focus, .button:hover, .button:focus {
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
 }
 
-.button, button {
+.button,
+button {
   /* overwrites browser defaults */
   /* resets the border */
   border: none;
